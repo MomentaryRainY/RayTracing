@@ -8,9 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/vscode/projects/Assignment5/Code/Renderer.cpp" "CMakeFiles/RayTracing.dir/Renderer.cpp.obj" "gcc" "CMakeFiles/RayTracing.dir/Renderer.cpp.obj.d"
-  "E:/vscode/projects/Assignment5/Code/Scene.cpp" "CMakeFiles/RayTracing.dir/Scene.cpp.obj" "gcc" "CMakeFiles/RayTracing.dir/Scene.cpp.obj.d"
-  "E:/vscode/projects/Assignment5/Code/main.cpp" "CMakeFiles/RayTracing.dir/main.cpp.obj" "gcc" "CMakeFiles/RayTracing.dir/main.cpp.obj.d"
+  "E:/vscode/projects/Assignment6/Assignment6/BVH.cpp" "CMakeFiles/RayTracing.dir/BVH.cpp.obj" "gcc" "CMakeFiles/RayTracing.dir/BVH.cpp.obj.d"
+  "E:/vscode/projects/Assignment6/Assignment6/Renderer.cpp" "CMakeFiles/RayTracing.dir/Renderer.cpp.obj" "gcc" "CMakeFiles/RayTracing.dir/Renderer.cpp.obj.d"
+  "E:/vscode/projects/Assignment6/Assignment6/Scene.cpp" "CMakeFiles/RayTracing.dir/Scene.cpp.obj" "gcc" "CMakeFiles/RayTracing.dir/Scene.cpp.obj.d"
+  "E:/vscode/projects/Assignment6/Assignment6/Vector.cpp" "CMakeFiles/RayTracing.dir/Vector.cpp.obj" "gcc" "CMakeFiles/RayTracing.dir/Vector.cpp.obj.d"
+  "E:/vscode/projects/Assignment6/Assignment6/main.cpp" "CMakeFiles/RayTracing.dir/main.cpp.obj" "gcc" "CMakeFiles/RayTracing.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

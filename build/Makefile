@@ -56,10 +56,10 @@ RM = E:\Cmake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\vscode\projects\Assignment5\Code
+CMAKE_SOURCE_DIR = E:\vscode\projects\Assignment6\Assignment6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\vscode\projects\Assignment5\Code\build
+CMAKE_BINARY_DIR = E:\vscode\projects\Assignment6\Assignment6\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\vscode\projects\Assignment5\Code\build\CMakeFiles E:\vscode\projects\Assignment5\Code\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\vscode\projects\Assignment6\Assignment6\build\CMakeFiles E:\vscode\projects\Assignment6\Assignment6\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\vscode\projects\Assignment5\Code\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\vscode\projects\Assignment6\Assignment6\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -127,6 +127,30 @@ RayTracing: cmake_check_build_system
 RayTracing/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RayTracing.dir\build.make CMakeFiles/RayTracing.dir/build
 .PHONY : RayTracing/fast
+
+BVH.obj: BVH.cpp.obj
+.PHONY : BVH.obj
+
+# target to build an object file
+BVH.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RayTracing.dir\build.make CMakeFiles/RayTracing.dir/BVH.cpp.obj
+.PHONY : BVH.cpp.obj
+
+BVH.i: BVH.cpp.i
+.PHONY : BVH.i
+
+# target to preprocess a source file
+BVH.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RayTracing.dir\build.make CMakeFiles/RayTracing.dir/BVH.cpp.i
+.PHONY : BVH.cpp.i
+
+BVH.s: BVH.cpp.s
+.PHONY : BVH.s
+
+# target to generate assembly for a file
+BVH.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RayTracing.dir\build.make CMakeFiles/RayTracing.dir/BVH.cpp.s
+.PHONY : BVH.cpp.s
 
 Renderer.obj: Renderer.cpp.obj
 .PHONY : Renderer.obj
@@ -176,6 +200,30 @@ Scene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RayTracing.dir\build.make CMakeFiles/RayTracing.dir/Scene.cpp.s
 .PHONY : Scene.cpp.s
 
+Vector.obj: Vector.cpp.obj
+.PHONY : Vector.obj
+
+# target to build an object file
+Vector.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RayTracing.dir\build.make CMakeFiles/RayTracing.dir/Vector.cpp.obj
+.PHONY : Vector.cpp.obj
+
+Vector.i: Vector.cpp.i
+.PHONY : Vector.i
+
+# target to preprocess a source file
+Vector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RayTracing.dir\build.make CMakeFiles/RayTracing.dir/Vector.cpp.i
+.PHONY : Vector.cpp.i
+
+Vector.s: Vector.cpp.s
+.PHONY : Vector.s
+
+# target to generate assembly for a file
+Vector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RayTracing.dir\build.make CMakeFiles/RayTracing.dir/Vector.cpp.s
+.PHONY : Vector.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -209,12 +257,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... RayTracing
+	@echo ... BVH.obj
+	@echo ... BVH.i
+	@echo ... BVH.s
 	@echo ... Renderer.obj
 	@echo ... Renderer.i
 	@echo ... Renderer.s
 	@echo ... Scene.obj
 	@echo ... Scene.i
 	@echo ... Scene.s
+	@echo ... Vector.obj
+	@echo ... Vector.i
+	@echo ... Vector.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

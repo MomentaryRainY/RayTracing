@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/RayTracing.dir/BVH.cpp.obj"
+  "CMakeFiles/RayTracing.dir/BVH.cpp.obj.d"
   "CMakeFiles/RayTracing.dir/Renderer.cpp.obj"
   "CMakeFiles/RayTracing.dir/Renderer.cpp.obj.d"
   "CMakeFiles/RayTracing.dir/Scene.cpp.obj"
   "CMakeFiles/RayTracing.dir/Scene.cpp.obj.d"
+  "CMakeFiles/RayTracing.dir/Vector.cpp.obj"
+  "CMakeFiles/RayTracing.dir/Vector.cpp.obj.d"
   "CMakeFiles/RayTracing.dir/main.cpp.obj"
   "CMakeFiles/RayTracing.dir/main.cpp.obj.d"
   "RayTracing.exe"

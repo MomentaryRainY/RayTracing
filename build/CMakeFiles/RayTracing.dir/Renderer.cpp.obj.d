@@ -1,5 +1,5 @@
 CMakeFiles/RayTracing.dir/Renderer.cpp.obj: \
- E:\vscode\projects\Assignment5\Code\Renderer.cpp \
+ E:\vscode\projects\Assignment6\Assignment6\Renderer.cpp \
  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
@@ -133,7 +133,17 @@ CMakeFiles/RayTracing.dir/Renderer.cpp.obj: \
  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
- E:\vscode\projects\Assignment5\Code\Vector.hpp \
+ E:\vscode\projects\Assignment6\Assignment6\Scene.hpp \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
+ E:\vscode\projects\Assignment6\Assignment6\Vector.hpp \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
  E:/gcc/mingw64/x86_64-w64-mingw32/include/math.h \
  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/specfun.h \
@@ -150,40 +160,16 @@ CMakeFiles/RayTracing.dir/Renderer.cpp.obj: \
  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_hermite.tcc \
  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_laguerre.tcc \
  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/riemann_zeta.tcc \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
- E:\vscode\projects\Assignment5\Code\Renderer.hpp \
- E:\vscode\projects\Assignment5\Code\Scene.hpp \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/memory \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_raw_storage_iter.h \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/concurrence.h \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unique_ptr.h \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tuple \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr.h \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_base.h \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocated_ptr.h \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/refwrap.h \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/aligned_buffer.h \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_atomic.h \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_base.h \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_lockfree_defines.h \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/auto_ptr.h \
- E:\vscode\projects\Assignment5\Code\Object.hpp \
- E:\vscode\projects\Assignment5\Code\global.hpp \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
+ E:\vscode\projects\Assignment6\Assignment6\Object.hpp \
+ E:\vscode\projects\Assignment6\Assignment6\global.hpp \
  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/random \
  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.h \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
@@ -193,6 +179,33 @@ CMakeFiles/RayTracing.dir/Renderer.cpp.obj: \
  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.tcc \
  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric \
  E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h \
- E:\vscode\projects\Assignment5\Code\Light.hpp \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/optional \
- E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/enable_special_members.h
+ E:\vscode\projects\Assignment6\Assignment6\Bounds3.hpp \
+ E:\vscode\projects\Assignment6\Assignment6\Ray.hpp \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
+ E:\vscode\projects\Assignment6\Assignment6\Intersection.hpp \
+ E:\vscode\projects\Assignment6\Assignment6\Material.hpp \
+ E:\vscode\projects\Assignment6\Assignment6\Light.hpp \
+ E:\vscode\projects\Assignment6\Assignment6\AreaLight.hpp \
+ E:\vscode\projects\Assignment6\Assignment6\BVH.hpp \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/atomic \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_base.h \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_lockfree_defines.h \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/memory \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_raw_storage_iter.h \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/concurrence.h \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unique_ptr.h \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tuple \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr.h \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_base.h \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocated_ptr.h \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/refwrap.h \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/aligned_buffer.h \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_atomic.h \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/auto_ptr.h \
+ E:/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
+ E:/gcc/mingw64/x86_64-w64-mingw32/include/time.h \
+ E:/gcc/mingw64/x86_64-w64-mingw32/include/_timeval.h \
+ E:/gcc/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
+ E:\vscode\projects\Assignment6\Assignment6\Renderer.hpp
