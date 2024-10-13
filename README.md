@@ -1,3 +1,5 @@
+# RayTracing
+resources are from Games101
 
-I've finished task ...
-
+# Effect
+![img](/build/binary.ppm)  
